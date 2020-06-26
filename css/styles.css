@@ -499,11 +499,20 @@ body {
 
 .aside__proveedores {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
   .aside__proveedores .proveedor {
     padding-top: 2rem;
     padding-left: 5rem;
-    padding-right: 5rem; }
+    padding-right: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+  .aside__proveedores img {
+    max-width: 100%;
+    width: 150px; }
 
 .contact {
   width: 100%;
