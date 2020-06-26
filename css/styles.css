@@ -530,13 +530,25 @@ body {
       -ms-border-radius: 8px;
       -o-border-radius: 8px; }
   .aside__categorias .categoria1 {
-    background-image: url(../images/5.jpg); }
+    background-image: url(../images/13.jpg);
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover; }
   .aside__categorias .categoria2 {
-    background-image: url(../images/5.jpg); }
+    background-image: url(../images/10.jpg);
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover; }
   .aside__categorias .categoria3 {
-    background-image: url(../images/5.jpg); }
+    background-image: url(../images/11.jpg);
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover; }
   .aside__categorias .categoria4 {
-    background-image: url(../images/5.jpg); }
+    background-image: url(../images/12.jpg);
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover; }
 
 .contact {
   width: 100%;
