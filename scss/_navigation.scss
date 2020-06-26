@@ -1,0 +1,38 @@
+/* Distribución de elementos */
+.nav {
+    grid-area: nav;
+    background-color: #fff;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* Estilos de elementos */
+.nav {
+   
+    figure {
+        width:150px;
+        margin-right:auto;
+        img {
+            max-width:100%;
+            display:block;
+           
+        }
+        
+    }
+    ul {
+        list-style: none;
+    }
+        li {
+            display:inline-block;
+            margin:0 .5rem;
+        }
+            a {
+                text-decoration: none;
+                color:#11262d;
+            }
+}
+
