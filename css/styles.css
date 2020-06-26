@@ -341,64 +341,6 @@ body {
   text-decoration: none;
   color: #11262d; }
 
-/* .slider {
-    width:100%;    
- }
- 
- .slider > figure {
-     position:relative;
-     width:500%;
-     margin:0;
-     left:0;
-     animation:20s slider infinite;
-     -webkit-animation:20s slider infinite;
-     overflow:hidden;
-     max-height:60vh;
-     
-     
-     
- }
- 
- .slider > figure > img {
-    width:20%;
-    float:left;
-
-      
- 
- }
- 
- @keyframes slider {
-     0%{
-         left:0;
-     }
-     20% {
-         left:0;
-     }
-     25%{
-         left:-100%;
-     }
-     45% {
-         left:-100%;
-         
-     }
-     50% {
-         left:-200%;
-     }
-     70% {
-         left:-200%;
-     }
-     75% {
-         left:-300%;
-     }
-     95% {
-         left:-300%;
-     }
- 
-     100% {
-         left:-400%;
-     }
- 
- } */
 .section {
   background-image: url(../images/9.jpg);
   max-width: 100%;
@@ -438,11 +380,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  padding: 5rem 0; }
+  padding: 4rem 0; }
   .aside h2 {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     font-size: 1.8rem;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    border-bottom: 3px solid #CA9C59; }
+  .aside .aside__informacion {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    text-align: center; }
 
 .aside__tarjetas {
   display: flex;
@@ -550,6 +497,14 @@ body {
     background-position: center;
     background-size: cover; }
 
+.aside__proveedores {
+  display: flex;
+  flex-direction: row; }
+  .aside__proveedores .proveedor {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem; }
+
 .contact {
   width: 100%;
   margin: auto;
@@ -558,10 +513,12 @@ body {
   text-align: center;
   align-items: center;
   flex-direction: column;
-  background-color: #9ba9b6; }
+  background-color: #DFD8CD;
+  padding: 2rem 0; }
   .contact h4 {
-    font-size: 1.5rem;
-    padding: 1rem; }
+    font-size: 1.8rem;
+    padding: 2rem;
+    letter-spacing: 2px; }
 
 .container-contact {
   display: flex;
@@ -617,7 +574,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  padding: 1rem; }
   .footer p {
     color: #fff; }
 
