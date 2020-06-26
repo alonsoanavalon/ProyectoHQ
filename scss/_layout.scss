@@ -1,7 +1,7 @@
 body {
     display:grid;
     grid-template-columns: 1;
-    grid-template-rows: 3% auto auto auto auto;
+    grid-template-rows: autogit auto auto auto auto;
     grid-template-areas: "nav"
                          "slider"
                          "aside"

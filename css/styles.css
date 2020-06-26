@@ -311,7 +311,7 @@ template {
 body {
   display: grid;
   grid-template-columns: 1;
-  grid-template-rows: 3% auto auto auto auto;
+  grid-template-rows: autogit auto auto auto auto;
   grid-template-areas: "nav" "slider" "aside" "contact" "footer"; }
 
 /* Distribución de elementos */
@@ -323,8 +323,7 @@ body {
   align-items: center;
   width: 90%;
   margin-left: auto;
-  margin-right: auto;
-  height: 80px; }
+  margin-right: auto; }
 
 /* Estilos de elementos */
 .nav figure {
@@ -414,7 +413,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  text-align: center; }
   .section h1 {
     font-size: 3rem;
     color: #fff; }
