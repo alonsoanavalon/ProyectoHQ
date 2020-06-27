@@ -10,17 +10,22 @@
     align-items: center;
     padding:4rem 0;
 
-    h2 {
-        padding-bottom: 1rem;;
-        font-size: 1.8rem;
-        letter-spacing: 2px;
-        border-bottom:3px solid #CA9C59;
-           
-    }
+   
     .aside__informacion {
-        padding-top:2rem;
         font-size: 1.2rem;
         text-align: center;
+        h2 {
+           
+            font-size: 1.8rem;
+            letter-spacing: 2px;
+            border-bottom:3px solid #CA9C59;
+            display:inline;
+               
+        }
+        p {
+            padding-top: 1rem;
+
+        }
     }
 }
 
@@ -30,8 +35,8 @@
     align-items: center;
     flex-wrap: wrap;
     .tarjeta {
-        width:15%;
-        min-width: 205px;;
+        
+        width: 250px;
         border-radius:8px;
         overflow: hidden;
         text-align: center;
@@ -91,8 +96,8 @@
     align-items: center;
     flex-wrap: wrap;
     .categoria {
-        width:10%;
-        min-width: 150px;;
+        
+        width: 150px;;
         border-radius:8px;
         overflow: hidden;
         text-align: center;

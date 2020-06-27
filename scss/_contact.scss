@@ -8,7 +8,7 @@
     align-items: center;
     flex-direction: column;
     background-color:     #DFD8CD  ;
-    padding:2rem 0;
+    padding:2rem 0;;
     h4 {
         font-size: 1.8rem;
         padding:2rem;
@@ -36,6 +36,7 @@
     padding:10px 20px;
     box-sizing: border-box;
     max-width:50%;
+    color:redM
    
 }
 .container-contact__form > h4 {
@@ -55,10 +56,9 @@
 }
 
 .container-contact__form > textarea {
-    min-height:200px;
+    min-height:100px;
     max-height:200px;
     max-width: 100%;
-    min-width:100px;
  
 }
 

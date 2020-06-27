@@ -381,15 +381,16 @@ body {
   margin-right: auto;
   align-items: center;
   padding: 4rem 0; }
-  .aside h2 {
-    padding-bottom: 1rem;
-    font-size: 1.8rem;
-    letter-spacing: 2px;
-    border-bottom: 3px solid #CA9C59; }
   .aside .aside__informacion {
-    padding-top: 2rem;
     font-size: 1.2rem;
     text-align: center; }
+    .aside .aside__informacion h2 {
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      border-bottom: 3px solid #CA9C59;
+      display: inline; }
+    .aside .aside__informacion p {
+      padding-top: 1rem; }
 
 .aside__tarjetas {
   display: flex;
@@ -397,8 +398,7 @@ body {
   align-items: center;
   flex-wrap: wrap; }
   .aside__tarjetas .tarjeta {
-    width: 15%;
-    min-width: 205px;
+    width: 250px;
     border-radius: 8px;
     overflow: hidden;
     text-align: center;
@@ -444,8 +444,7 @@ body {
   align-items: center;
   flex-wrap: wrap; }
   .aside__categorias .categoria {
-    width: 10%;
-    min-width: 150px;
+    width: 150px;
     border-radius: 8px;
     overflow: hidden;
     text-align: center;
@@ -544,7 +543,8 @@ body {
   width: 50%;
   padding: 10px 20px;
   box-sizing: border-box;
-  max-width: 50%; }
+  max-width: 50%;
+  color: redM; }
 
 .container-contact__form > h4 {
   letter-spacing: 1px;
@@ -560,10 +560,9 @@ body {
   color: #000; }
 
 .container-contact__form > textarea {
-  min-height: 200px;
+  min-height: 100px;
   max-height: 200px;
-  max-width: 100%;
-  min-width: 100px; }
+  max-width: 100%; }
 
 .container-contact__img {
   width: 50%;
@@ -588,6 +587,255 @@ body {
   .footer p {
     color: #fff; }
 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 1199px) {
+  nav figure {
+    width: 93.75px; }
+    nav figure img {
+      width: 62.5%; }
+  nav ul li {
+    font-size: 0.63rem; }
+    nav ul li a {
+      font-size: 0.63rem; }
+
+  .section {
+    height: 437px; }
+    .section h1 {
+      font-size: 1.88rem; }
+    .section h4 {
+      font-size: 1.56rem; }
+
+  .aside {
+    padding: 2.5rem 0; }
+    .aside .aside__informacion {
+      font-size: 0.75rem; }
+      .aside .aside__informacion h2 {
+        font-size: 1.13rem;
+        letter-spacing: 1.13px;
+        border-bottom: 1.88px;
+        border-bottom: 1.88px solid #CA9C59; }
+      .aside .aside__informacion p {
+        padding-top: 0.63rem; }
+
+  .aside__tarjetas .tarjeta {
+    width: 156px;
+    margin: 1.88rem 0.63rem;
+    padding: 1.25rem; }
+    .aside__tarjetas .tarjeta h4 {
+      font-size: 0.94rem; }
+    .aside__tarjetas .tarjeta p {
+      padding: 0.63rem;
+      margin: 0.63rem;
+      font-size: 0.63rem; }
+    .aside__tarjetas .tarjeta a {
+      font-size: 0.63rem; }
+
+  .aside__categorias .categoria {
+    width: 96px;
+    margin: 1.88rem 0.63rem;
+    padding: 1.25rem; }
+    .aside__categorias .categoria h4 {
+      font-size: 0.94rem; }
+    .aside__categorias .categoria p {
+      margin: 0.63rem 0 1.25rem 0;
+      font-size: 0.63rem; }
+    .aside__categorias .categoria a {
+      font-size: 0.63rem; }
+
+  .aside__proveedores .proveedor {
+    padding-top: 1.25rem;
+    padding-left: 3.13rem;
+    padding-right: 3.13rem; }
+    .aside__proveedores .proveedor img {
+      width: 93.75px; }
+
+  .contact h4 {
+    font-size: 1.13rem;
+    padding: 1.25rem;
+    letter-spacing: 1.25px; }
+  .contact .container-contact_form input {
+    font-size: 0.63rem;
+    margin: 6.25px;
+    padding: 6.25px; }
+  .contact .container-contact_form textarea {
+    font-size: 0.63rem;
+    margin: 6.25px;
+    padding: 6.25px;
+    min-height: 125px;
+    max-height: 125px;
+    min-width: 62.50px; }
+
+  .footer {
+    padding: 0.63rem 0; }
+    .footer p {
+      font-size: 0.63rem; } }
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+  nav figure {
+    width: 60px; }
+    nav figure img {
+      width: 40%; }
+  nav ul li {
+    font-size: 0.4rem; }
+    nav ul li a {
+      font-size: 0.4rem; }
+
+  .section {
+    height: 279px; }
+    .section h1 {
+      font-size: 0.64rem; }
+    .section h4 {
+      font-size: 1rem; }
+
+  .aside {
+    padding: 1.6rem 0; }
+    .aside .aside__informacion {
+      font-size: 0.48rem; }
+      .aside .aside__informacion h2 {
+        font-size: 0.72rem;
+        letter-spacing: 0.72px;
+        border-bottom: 1.2px;
+        border-bottom: 1.2px solid #CA9C59; }
+      .aside .aside__informacion p {
+        padding-top: 0.4rem; }
+
+  .aside__tarjetas .tarjeta {
+    width: 100px;
+    margin: 1.2rem 0.4rem;
+    padding: 0.8rem; }
+    .aside__tarjetas .tarjeta h4 {
+      font-size: 0.6rem; }
+    .aside__tarjetas .tarjeta p {
+      padding: 0.4rem;
+      margin: 0.4rem;
+      font-size: 0.4rem; }
+    .aside__tarjetas .tarjeta a {
+      font-size: 0.4rem; }
+
+  .aside__categorias .categoria {
+    width: 61px;
+    margin: 1.2rem 0.4rem;
+    padding: 0.8rem; }
+    .aside__categorias .categoria h4 {
+      font-size: 0.6rem; }
+    .aside__categorias .categoria p {
+      margin: 0.4rem 0 0.8rem 0;
+      font-size: 0.4rem; }
+    .aside__categorias .categoria a {
+      font-size: 0.4rem; }
+
+  .aside__proveedores .proveedor {
+    padding-top: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+    .aside__proveedores .proveedor img {
+      width: 60px; }
+
+  .contact h4 {
+    font-size: 0.72rem;
+    padding: 0.8rem;
+    letter-spacing: 0.8px; }
+  .contact .container-contact_form input {
+    font-size: 0.4rem;
+    margin: 4px;
+    padding: 4px; }
+  .contact .container-contact_form textarea {
+    font-size: 0.4rem;
+    margin: 4px;
+    padding: 4px;
+    min-height: 80px;
+    max-height: 80px;
+    min-width: 40px; }
+
+  .footer {
+    padding: 0.4rem 0; }
+    .footer p {
+      font-size: 0.4rem; } }
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  nav figure {
+    width: 38.40px; }
+    nav figure img {
+      width: 25%; }
+  nav ul li {
+    font-size: 0.25rem; }
+    nav ul li a {
+      font-size: 0.25rem; }
+
+  .section {
+    height: 174px; }
+    .section h1 {
+      font-size: 0.4rem; }
+    .section h4 {
+      font-size: 0.63rem; }
+
+  .aside {
+    padding: 1rem 0; }
+    .aside .aside__informacion {
+      font-size: 0.3rem; }
+      .aside .aside__informacion h2 {
+        font-size: 0.45rem;
+        letter-spacing: 0.45px;
+        border-bottom: 0.75px;
+        border-bottom: 0.75px solid #CA9C59; }
+      .aside .aside__informacion p {
+        padding-top: 0.25rem; }
+
+  .aside__tarjetas .tarjeta {
+    width: 62.5px;
+    margin: 0.75rem 0.25rem;
+    padding: 0.5rem; }
+    .aside__tarjetas .tarjeta h4 {
+      font-size: 0.38rem; }
+    .aside__tarjetas .tarjeta p {
+      padding: 0.25rem;
+      margin: 0.25rem;
+      font-size: 0.25rem; }
+    .aside__tarjetas .tarjeta a {
+      font-size: 0.25rem; }
+
+  .aside__categorias .categoria {
+    width: 38px;
+    margin: 0.75rem 0.25rem;
+    padding: 0.5rem; }
+    .aside__categorias .categoria h4 {
+      font-size: 0.38rem; }
+    .aside__categorias .categoria p {
+      margin: 0.25rem 0 0.5rem 0;
+      font-size: 0.25rem; }
+    .aside__categorias .categoria a {
+      font-size: 0.25rem; }
+
+  .aside__proveedores .proveedor {
+    padding-top: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; }
+    .aside__proveedores .proveedor img {
+      width: 38px; }
+
+  .contact h4 {
+    font-size: 0.45rem;
+    padding: 0.5rem;
+    letter-spacing: 0.5px; }
+  .contact .container-contact_form input {
+    font-size: 0.25rem;
+    margin: 2.5px;
+    padding: 2.5px; }
+  .contact .container-contact_form textarea {
+    font-size: 0.25rem;
+    margin: 2.5px;
+    padding: 2.5px;
+    max-height: 50px;
+    min-height: 50px;
+    min-width: 25px; }
+
+  .footer {
+    padding: 0.25rem 0; }
+    .footer p {
+      font-size: 0.25rem; } }
 * {
   font-family: Open Sans,sans-serif; }
 
