@@ -2,7 +2,7 @@
 
 /* Tablets en horizonal y escritorios normales
    ------------------------------------------------------------------------- */
-@media (min-width: 768px) and (max-width: 1199px) {
+@media /* (min-width: 768px) and */ (max-width: 1199px) {
 
 
     nav {
@@ -138,7 +138,7 @@
 
 /* Móviles en horizontal o tablets en vertical
    ------------------------------------------------------------------------- */
-@media (max-width: 767px) { 
+/* @media (max-width: 767px) { 
     nav {
    
         figure {
@@ -267,12 +267,12 @@
         }
     }
 
-}
+} */
 
  
 /* Móviles en vertical
    ------------------------------------------------------------------------- */
-@media (max-width: 480px) { 
+/* @media (max-width: 480px) { 
 
     nav {
    
@@ -373,7 +373,11 @@
     }  
   
    
-    .contact {
+    .contact {.footer {
+        p {
+            font-size:0.63rem;
+        }
+    }
         h4{
             font-size:0.45rem;
             padding:0.5rem;
@@ -403,4 +407,4 @@
         }
     }
 
- }
+ } */
