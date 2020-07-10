@@ -21,10 +21,11 @@
             letter-spacing: 2px;
             border-bottom:3px solid #CA9C59;
             display:inline;
+            padding-bottom: .2rem;
                
         }
         p {
-            padding-top: 1.5rem;
+            padding-top: 2.5rem;
             padding-bottom: 1.5rem;
 
         }
@@ -65,14 +66,14 @@
         h4{
             
             font-size: 1.7rem;
-            margin: 0 auto;
             color:#fff;
-            letter-spacing: 2px;    
+            letter-spacing: 2px;  
+            margin:1rem auto;  
             
         }
         p {
             padding:1rem;
-            margin-top:1rem;
+            /* margin-top:1rem; */
             color:#fff;
     
            
@@ -87,7 +88,7 @@
             -moz-border-radius: 8px;
             -ms-border-radius: 8px;
             -o-border-radius: 8px;
-            margin: 0 auto;
+            margin:.5rem auto 0 auto;
         }
     }
 }

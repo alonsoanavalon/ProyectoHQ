@@ -64,25 +64,26 @@
                 border-bottom:1.88px;
                 border-bottom:1.88px solid #CA9C59;
     
-            }
+            }    
+    
             p {
-                padding-top:0.8rem;
+                padding-top:1.5rem;
+                padding-bottom:.5rem;
                 font-size: 0.8rem;
             }
         }
     }
     .aside__tarjetas {
         .tarjeta {
-        
             width:100%;
             /* margin:1.88rem 0.8rem; */
-            padding:1.25rem;
+            padding:1.25rem 3.25rem 1.25rem 3.25rem;
             h4{
                 font-size:1.2rem;
+                margin: .75rem auto;
             }
             p {
                 padding:0.8rem;
-                margin:0.8rem;
                 font-size:0.8rem;
             }
             a {
@@ -128,7 +129,7 @@
     .contact {
         h4{
             font-size:1.13rem;
-            padding:1.25rem;
+            padding:0.75rem 0 1.25rem 0;
             letter-spacing:1.25px;
         }
         .container-contact_form {
@@ -149,6 +150,7 @@
     }
     .footer {
         padding:0.63rem 0;
+        text-align: center;
         p {
             font-size:0.8rem;
         }
