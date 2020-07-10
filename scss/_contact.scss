@@ -7,12 +7,13 @@
     text-align: center;
     align-items: center;
     flex-direction: column;
-    background-color:     #DFD8CD  ;
+    background-color:     #4b4e51;
     padding:2rem 0;
     h4 {
         font-size: 1.8rem;
         padding:2rem;
         letter-spacing: 2px;;
+        color:#fff;
     }
 }
 
@@ -32,11 +33,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:50%;
+    width:100%;
     padding:10px 20px;
     box-sizing: border-box;
-    max-width:50%;
-    color:redM
    
 }
 .container-contact__form > h4 {
@@ -48,7 +47,7 @@
 .container-contact__form > textarea {
     padding:10px;
     margin:10px;
-    width: 100%;
+    width: 70%;
     font-size: 1rem;;
     border-radius: 5px;
     color:#000;
@@ -78,5 +77,5 @@
 
 #submit {
     width:100px;
-    margin-left:auto;
+    /* margin-left:auto; */
 }

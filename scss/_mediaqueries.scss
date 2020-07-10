@@ -1,24 +1,43 @@
-  
+@media /* (min-width: 768px) and */ (max-width: 1440px) {
+
+    .section {
+        height:525px;
+                
+        h1 {
+            font-size: 2rem;;
+        }
+        h4 {
+            font-size: 1.7rem;;
+        }
+    }
+
+}
 
 /* Tablets en horizonal y escritorios normales
    ------------------------------------------------------------------------- */
 @media /* (min-width: 768px) and */ (max-width: 1199px) {
 
 
-    nav {
+    .nav {
    
         figure {
             width:93.75px;
             img {
-                width:62.5%;
+                width:100%;
             }
                     
         }
         ul {
             li {
-                font-size:0.63rem;
+                width:27px;
+                height:27px;
+
                 a {
-                    font-size:0.63rem;
+                    font-size:0.8rem;
+
+                    img {
+                        max-width: 100%;;
+                    }
                 }
             }
         }
@@ -47,26 +66,27 @@
     
             }
             p {
-                padding-top:0.63rem;
+                padding-top:0.8rem;
+                font-size: 0.8rem;
             }
         }
     }
     .aside__tarjetas {
         .tarjeta {
         
-            width:156px;
-            margin:1.88rem 0.63rem;
+            width:100%;
+            /* margin:1.88rem 0.8rem; */
             padding:1.25rem;
             h4{
-                font-size:0.94rem;
+                font-size:1.2rem;
             }
             p {
-                padding:0.63rem;
-                margin:0.63rem;
-                font-size:0.63rem;
+                padding:0.8rem;
+                margin:0.8rem;
+                font-size:0.8rem;
             }
             a {
-                font-size:0.63rem;
+                font-size:0.8rem;
             }
             
         }
@@ -76,7 +96,7 @@
     .aside__categorias {
         .categoria {
             width:96px;
-            margin:1.88rem 0.63rem;
+            margin:1.88rem 0.8rem;
             padding:1.25rem;
            
     
@@ -85,10 +105,10 @@
             }
             p {
                 margin:0.63rem 0 1.25rem 0;
-                font-size:0.63rem ;
+                font-size:0.8rem ;
             }
             a {
-                font-size:0.63rem;
+                font-size:0.8rem;
             }
         }
 
@@ -113,12 +133,12 @@
         }
         .container-contact_form {
             input {
-                font-size:0.63rem;
+                font-size:0.8rem;
                 margin:6.25px;
                 padding:6.25px;
             }
             textarea {
-                font-size:0.63rem;
+                font-size:0.8rem;
                 margin:6.25px;
                 padding:6.25px;
                 min-height:125px;
@@ -130,11 +150,36 @@
     .footer {
         padding:0.63rem 0;
         p {
-            font-size:0.63rem;
+            font-size:0.8rem;
         }
     }
 
  }   
+
+// Movil
+ @media (max-width: 767px){
+    .section {
+        height:279px;
+                
+        h1 {
+            font-size: 1rem;;
+        }
+        h4 {
+            font-size: 1rem;;
+        }
+    }
+    .aside__proveedores { 
+        .proveedor {
+            padding-top:1.25rem;
+            padding-left:3.13rem;
+            padding-right:3.13rem;
+            img {
+                width:73.75px;
+            }
+        }
+    } 
+ }
+
 
 /* Móviles en horizontal o tablets en vertical
    ------------------------------------------------------------------------- */
@@ -375,7 +420,7 @@
    
     .contact {.footer {
         p {
-            font-size:0.63rem;
+            font-size:0.8rem;
         }
     }
         h4{

@@ -7,7 +7,7 @@
     align-items: center;
     width:90%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;    
 
 }
 /* Estilos de elementos */
@@ -25,14 +25,25 @@
     }
     ul {
         list-style: none;
-    }
+
         li {
             display:inline-block;
             margin:0 .5rem;
-        }
+            width:3rem;
+            height:3rem;
+
             a {
                 text-decoration: none;
                 color:#11262d;
+
+                img {
+                    max-width: 100%;;
+                }
             }
+        }
+           
+    }
+      
+
 }
 
