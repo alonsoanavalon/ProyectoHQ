@@ -363,9 +363,9 @@ body {
   text-align: center; }
   .section h1 {
     font-size: 3rem;
-    color: #3a3a3b; }
+    color: #111111; }
   .section h4 {
-    color: #3a3a3b;
+    color: #111111;
     font-size: 2.5rem;
     text-align: center;
     opacity: 1; }
@@ -598,7 +598,7 @@ body {
 
 .footer {
   width: 100%;
-  background-color: #000;
+  background-color: #111111;
   height: 30px;
   display: flex;
   justify-content: center;
