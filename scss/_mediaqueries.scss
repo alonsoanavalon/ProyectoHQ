@@ -147,6 +147,17 @@
                 min-width:62.50px;
             }
         }
+
+        .container-contact__form > input,
+        .container-contact__form > textarea {
+            padding:10px;
+            margin:10px;
+            width: 70%;
+            font-size: 1rem;;
+            border-radius: 5px;
+            color:#000;
+
+        }
     }
     .footer {
         padding:0.63rem 0;
