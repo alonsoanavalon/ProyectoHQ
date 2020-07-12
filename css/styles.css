@@ -398,65 +398,16 @@ body {
       padding-top: 2.5rem;
       padding-bottom: 1.5rem; }
 
-.aside__tarjetas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; }
-  .aside__tarjetas .tarjeta {
-    margin: 0 auto;
-    width: 100%;
-    /* border-radius:8px; */
-    overflow: hidden;
-    text-align: center;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    transition: transform 0.25s;
-    /*     -webkit-border-radius:8px;
-    -moz-border-radius:8px;
-    -ms-border-radius:8px;
-    -o-border-radius:8px; */
-    -webkit-transition: transform 0.25s;
-    -moz-transition: transform 0.25s;
-    -ms-transition: transform 0.25s;
-    -o-transition: transform 0.25s;
-    margin: 3rem 0rem;
-    background-color: #3d4c6c;
-    padding: 2rem 4rem 2rem 4rem;
-    line-height: 1.5rem;
-    justify-content: center;
-    display: flex;
-    flex-direction: column; }
-    .aside__tarjetas .tarjeta h4 {
-      font-size: 1.8rem;
-      color: #fff;
-      letter-spacing: 2px;
-      margin: 1rem auto; }
-    .aside__tarjetas .tarjeta p {
-      padding: 1rem;
-      /* margin-top:1rem; */
-      color: #fff; }
-    .aside__tarjetas .tarjeta a {
-      padding: .7rem;
-      text-decoration: none;
-      background-color: #ff9f33;
-      color: #000;
-      border-radius: 8px;
-      -webkit-border-radius: 8px;
-      -moz-border-radius: 8px;
-      -ms-border-radius: 8px;
-      -o-border-radius: 8px;
-      margin: .5rem auto 0 auto; }
-
 .aside__categorias {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap; }
   .aside__categorias .categoria {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    width: 170px;
+    width: 165px;
     height: 200px;
     border-radius: 8px;
     overflow: hidden;
@@ -485,8 +436,7 @@ body {
         display: block;
         margin: 0; }
     .aside__categorias .categoria h4 {
-      font-size: 1.5rem;
-      /*   margin-bottom:auto; */ }
+      font-size: 1.5rem; }
     .aside__categorias .categoria p {
       margin: 1rem 0 2rem 0; }
     .aside__categorias .categoria a {
@@ -531,6 +481,49 @@ body {
     background-position: center;
     background-size: cover; }
 
+.aside__tarjetas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .aside__tarjetas .tarjeta {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s;
+    -webkit-transition: transform 0.25s;
+    -moz-transition: transform 0.25s;
+    -ms-transition: transform 0.25s;
+    -o-transition: transform 0.25s;
+    margin: 3rem 0rem;
+    background-color: #3d4c6c;
+    padding: 2rem 4rem 2rem 4rem;
+    line-height: 1.5rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; }
+    .aside__tarjetas .tarjeta h4 {
+      font-size: 1.8rem;
+      color: #fff;
+      letter-spacing: 2px;
+      margin: 1rem auto; }
+    .aside__tarjetas .tarjeta p {
+      padding: 1rem;
+      color: #fff; }
+    .aside__tarjetas .tarjeta a {
+      padding: .7rem;
+      text-decoration: none;
+      background-color: #ff9f33;
+      color: #000;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+      margin: .5rem auto 0 auto; }
+
 .aside__proveedores {
   display: flex;
   flex-direction: row;
@@ -568,7 +561,6 @@ body {
 
 .container-contact {
   display: flex;
-  /*  background-color: #fff; */
   width: 90%;
   margin: auto;
   align-items: center; }
@@ -608,8 +600,7 @@ body {
   max-width: 100%; }
 
 #submit {
-  width: 100px;
-  /* margin-left:auto; */ }
+  width: 100px; }
 
 .footer {
   width: 100%;
@@ -680,8 +671,7 @@ body {
       font-size: 0.8rem; }
 
   .aside__categorias .categoria {
-    width: 97px;
-    height: 170px;
+    width: 120px;
     margin: 1.88rem 0.5rem;
     padding: 1rem; }
     .aside__categorias .categoria h4 {
@@ -739,276 +729,6 @@ body {
     padding-right: 3.13rem; }
     .aside__proveedores .proveedor img {
       width: 73.75px; } }
-/* Móviles en horizontal o tablets en vertical
-   ------------------------------------------------------------------------- */
-/* @media (max-width: 767px) { 
-    nav {
-   
-        figure {
-            width:60px;
-            img {
-                width:40%;
-            }
-                    
-        }
-        ul {
-            li {
-                font-size:0.4rem;
-                a {
-                    font-size:0.4rem;
-                }
-            }
-        }
-    }
-
-    .section {
-        height:279px;
-                
-        h1 {
-            font-size: 0.64rem;;
-        }
-        h4 {
-            font-size: 1rem;;
-        }
-    }
-    .aside {
-       padding:1.6rem 0;      
-        .aside__informacion {
-            font-size:0.48rem;
-            h2{
-                font-size:0.72rem;
-                letter-spacing:0.72px;
-                border-bottom:1.2px;
-                border-bottom:1.2px solid #CA9C59;
-    
-            }
-            p {
-                padding-top:0.4rem;
-            }
-        }
-    }
-    .aside__tarjetas {
-        .tarjeta {
-        
-            width:100px;
-            margin:1.2rem 0.4rem;
-            padding:0.8rem;
-            h4{
-                font-size:0.6rem;
-            }
-            p {
-                padding:0.4rem;
-                margin:0.4rem;
-                font-size:0.4rem;
-            }
-            a {
-                font-size:0.4rem;
-            }
-            
-        }
-            
-
-    }
-    .aside__categorias {
-        .categoria {
-            width:61px;
-            margin:1.2rem 0.4rem;
-            padding:0.8rem;
-           
-    
-            h4{
-                font-size:0.6rem;
-            }
-            p {
-                margin:0.4rem 0 0.8rem 0;
-                font-size:0.4rem ;
-            }
-            a {
-                font-size:0.4rem;
-            }
-        }
-
-    }
-    .aside__proveedores { 
-        .proveedor {
-            padding-top:0.8rem;
-            padding-left:2rem;
-            padding-right:2rem;
-            img {
-                width:60px;
-            }
-        }
-    }  
-  
-   
-    .contact {
-        h4{
-            font-size:0.72rem;
-            padding:0.8rem;
-            letter-spacing:0.8px;
-        }
-        .container-contact_form {
-            input {
-                font-size:0.4rem;
-                margin:4px;
-                padding:4px;
-            }
-            textarea {
-                font-size:0.4rem;
-                margin:4px;
-                padding:4px;
-                min-height:80px;
-                max-height:80px;
-                min-width:40px;
-            }
-        }
-    }
-    .footer {
-        padding:0.4rem 0;
-        p {
-            font-size:0.4rem;
-        }
-    }
-
-} */
-/* Móviles en vertical
-   ------------------------------------------------------------------------- */
-/* @media (max-width: 480px) { 
-
-    nav {
-   
-        figure {
-            width:38.40px;
-            img {
-                width:25%;
-            }
-                    
-        }
-        ul {
-            li {
-                font-size:0.25rem;
-                a {
-                    font-size:0.25rem;
-                }
-            }
-        }
-    }
-
-    .section {
-        height:174px;
-                
-        h1 {
-            font-size: 0.4rem;;
-        }
-        h4 {
-            font-size: 0.63rem;;
-        }
-    }
-    .aside {
-       padding:1rem 0;      
-        .aside__informacion {
-            font-size:0.3rem;
-            h2{
-                font-size:0.45rem;
-                letter-spacing:0.45px;
-                border-bottom:0.75px;
-                border-bottom:0.75px solid #CA9C59;
-    
-            }
-            p {
-                padding-top:0.25rem;
-            }
-        }
-    }
-    .aside__tarjetas {
-        .tarjeta {
-        
-            width:62.5px;
-            margin:0.75rem 0.25rem;
-            padding:0.5rem;
-            h4{
-                font-size:0.38rem;
-            }
-            p {
-                padding:0.25rem;
-                margin:0.25rem;
-                font-size:0.25rem;
-            }
-            a {
-                font-size:0.25rem;
-            }
-            
-        }
-            
-
-    }
-    .aside__categorias {
-        .categoria {
-            width:38px;
-            margin:0.75rem 0.25rem;
-            padding:0.5rem;
-           
-    
-            h4{
-                font-size:0.38rem;
-            }
-            p {
-                margin:0.25rem 0 0.5rem 0;
-                font-size:0.25rem ;
-            }
-            a {
-                font-size:0.25rem;
-            }
-        }
-
-    }
-    .aside__proveedores { 
-        .proveedor {
-            padding-top:0.5rem;
-            padding-left:1.25rem;
-            padding-right:1.25rem;
-            img {
-                width:38px;
-            }
-        }
-    }  
-  
-   
-    .contact {.footer {
-        p {
-            font-size:0.8rem;
-        }
-    }
-        h4{
-            font-size:0.45rem;
-            padding:0.5rem;
-            letter-spacing:0.5px;
-        
-        }
-        .container-contact_form {
-            input {
-                font-size:0.25rem;
-                margin:2.5px;
-                padding:2.5px;
-            }
-            textarea {
-                font-size:0.25rem;
-                margin:2.5px;
-                padding:2.5px;
-                max-height:50px;
-                min-height:50px;
-                min-width:25px;
-            }
-        }
-    }
-    .footer {
-        padding:0.25rem 0;
-        p {
-            font-size:0.25rem;
-        }
-    }
-
- } */
 /* $width:30px;
 $height:4px;
 $menu-color:#333;
