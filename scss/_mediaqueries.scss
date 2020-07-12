@@ -96,21 +96,20 @@
     }
     .aside__categorias {
         .categoria {
-            width:96px;
-            margin:1.88rem 0.8rem;
-            padding:1.25rem;
+            width:97px;
+            height:170px;
+            margin:1.88rem 0.5rem;
+            padding:1rem;
            
     
             h4{
                 font-size:0.94rem;
             }
-            p {
-                margin:0.63rem 0 1.25rem 0;
+            li {
+           
                 font-size:0.8rem ;
             }
-            a {
-                font-size:0.8rem;
-            }
+
         }
 
     }
