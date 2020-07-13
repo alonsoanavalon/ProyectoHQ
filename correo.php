@@ -6,7 +6,7 @@
     $mensaje = $_POST['mensaje'];
     $email = $_POST['email'];
 
-    $header = "Enviado desde HQGray"
+    $header = "Enviado desde HQGray";
     $mensajeCompleto = $mensaje . "\nAtentamente: " . $nombre;
 
     mail($destinatario, $asunto, $mensajeCompleto, $header);
