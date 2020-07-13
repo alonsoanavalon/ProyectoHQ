@@ -1,5 +1,5 @@
 <?php
-    $destinatario= 'gray.import.export@gmail.com'
+    $destinatario= 'gray.import.export@gmail.com';
     //Esto es el correo al que se enviará el mensaje.
     $nombre = $_POST['name'];
     $asunto = $_POST['asunto'];
