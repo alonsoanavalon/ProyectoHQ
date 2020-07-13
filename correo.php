@@ -7,6 +7,6 @@
     $mensaje = $_POST["mensaje"];
     $contenido = "Nombre: " . $nombre . "\nCorreo: " . $email . "\nAsunto: " . $mensaje;
     mail($destino, "Contacto", $contenido);
-    echo "<h4>Mensaje enviado exitosamente</h4>"
+    echo "<h4>Mensaje enviado exitosamente</h4>";
 //Esto es opcional, aqui pueden colocar un mensaje de "enviado correctamente" o redireccionarlo a algun lugar
 ?>
