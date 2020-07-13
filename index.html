@@ -139,14 +139,14 @@
     <div class="contact" id="contact">
         <h4>Contáctanos</h4>
         <div class="container-contact">
-            <form action="/correo.php" method="POST">   
-                <div class="container-contact__form">
-                    <input type="text" name="name" id="name" placeholder="Ingrese su nombre" required> 
-                    <input type="email" name="email" id="email" placeholder="Ingrese su correo" required>
-                    <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
-                    <textarea name="mensaje" id="textarea" placeholder="Escriba su mensaje..." required></textarea>
-                    <button type="submit" id="submit">Enviar</button>
-                </div>
+            <form id ="contact-form" action="/correo.php" method="POST">  
+                    <div class="container-contact__form">
+                        <input type="text" name="name" id="name" placeholder="Ingrese su nombre" required> 
+                        <input type="email" name="email" id="email" placeholder="Ingrese su correo" required>
+                        <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+                        <textarea name="mensaje" id="textarea" placeholder="Escriba su mensaje..." required></textarea>
+                        <input type="submit" id="submit" value="Enviar">
+                    </div>
             </form> 
         </div>
     </div>
