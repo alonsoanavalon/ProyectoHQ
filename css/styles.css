@@ -578,8 +578,12 @@ body {
   letter-spacing: 1px;
   padding: 10px; }
 
+form {
+  width: 100%; }
+
 .container-contact__form > input,
-.container-contact__form > textarea {
+.container-contact__form > textarea,
+#submit {
   padding: 10px;
   margin: 10px;
   width: 40%;
@@ -590,13 +594,6 @@ body {
 .container-contact__form > textarea {
   min-height: 200px;
   max-height: 300px;
-  max-width: 100%; }
-
-.container-contact__img {
-  width: 50%;
-  max-width: 50%; }
-
-.container-contact__img > img {
   max-width: 100%; }
 
 #submit {
@@ -637,7 +634,7 @@ body {
         max-width: 100%; }
 
   .section {
-    height: 437px; }
+    height: 477px; }
     .section h1 {
       font-size: 1.88rem; }
     .section h4 {
@@ -717,11 +714,11 @@ body {
       font-size: 0.8rem; } }
 @media (max-width: 767px) {
   .section {
-    height: 279px; }
+    height: 400px; }
     .section h1 {
-      font-size: 1rem; }
+      font-size: 1.1rem; }
     .section h4 {
-      font-size: 1rem; }
+      font-size: 1.1rem; }
 
   .aside__proveedores .proveedor {
     padding-top: 1.25rem;

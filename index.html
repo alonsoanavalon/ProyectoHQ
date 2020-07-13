@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HQGray</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="/images/logohqgray.ico">
 </head>
 <body>
     <script src="menu-dist.js"></script>
@@ -23,9 +24,9 @@
             <ul class="menu" id="main-menu">
                 <li class="menu__item"><a href="https://www.facebook.com/hqgray/" class="menu__link"><img src="/images/icons/facebook.png" alt=""></a></li>
                 <li class="menu__item"><a href="https://cl.linkedin.com/in/hqgray" class="menu__link"><img src="/images/icons/linkedin (1).png" alt=""></a></li>
-                <li class="menu__item"><a href="#" class="menu__link"><img src="/images/icons/skype.png" alt=""></a></li>
-                <li class="menu__item"><a href="#" class="menu__link"><img src="/images/icons/whatsapp (1).png" alt=""></a></li>
-                <li class="menu__item"><a href="#" class="menu__link"><img src="/images/icons/1486564396-mail_81524.png" alt=""></a></li>
+                <li class="menu__item"><a href="skype:SKYPENAME?add" class="menu__link"><img src="/images/icons/skype.png" alt=""></a></li>
+                <li class="menu__item"><a href="https://wa.me/56968346592" class="menu__link"><img src="/images/icons/whatsapp (1).png" alt=""></a></li>
+                <li class="menu__item"><a href="mailto:gray.import.export@gmail.com?Subject=Interesado%20en%20una%20maquina"><img src="/images/icons/1486564396-mail_81524.png" alt=""></a></li>
             </ul>    
         </nav>        
     </header>
@@ -114,18 +115,21 @@
             <div class="proveedor proveedor1">
                 <img src="/images/tecop.jpg" alt="">
             </div>
-            <div class="proveedor proveedor1">
+            <div class="proveedor proveedor2">
                 <img src="/images/DANDO-LOGO-ORANGE-nuevo.png" alt="">
             </div>
-            <div class="proveedor proveedor1">
+            <div class="proveedor proveedor3">
                 <img src="images/Logo-Azeuz.png" alt="">
             </div>
-            <div class="proveedor proveedor1">
+            <div class="proveedor proveedor4">
                 <img src="images/logo_petersen_nuevo.png" alt="">
                 
             </div>
-            <div class="proveedor proveedor1">
+            <div class="proveedor proveedor5">
                 <img src="images/Logo-Qingdao-Xingfu.png" alt="">
+            </div>
+            <div class="proveedor proveedor6">
+                <img src="images/turbo.png" alt="">
             </div>
         </div>
      
@@ -134,14 +138,16 @@
 
     <div class="contact" id="contact">
         <h4>Contáctanos</h4>
-        <div class="container-contact">    
-            <div class="container-contact__form">
-                <input type="text" name="name" id="name" placeholder="Ingrese su nombre"> 
-                <input type="email" name="email" id="email" placeholder="Ingrese su correo">
-                <textarea name="mensaje" id="textarea" placeholder="Escriba su mensaje..."></textarea>
-                <input type="submit" id="submit" value="Enviar">
-                <a href="#"> </a>
-            </div>
+        <div class="container-contact">
+            <form action="correo.php" method="POST">   
+                <div class="container-contact__form">
+                    <input type="text" name="name" id="name" placeholder="Ingrese su nombre" required> 
+                    <input type="email" name="email" id="email" placeholder="Ingrese su correo" required>
+                    <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+                    <textarea name="mensaje" id="textarea" placeholder="Escriba su mensaje..." required></textarea>
+                    <button type="submit" id="submit">Enviar</button>
+                </div>
+            </form> 
         </div>
     </div>
 

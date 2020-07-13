@@ -41,9 +41,12 @@
     letter-spacing: 1px;
     padding:10px;
 }
-
+form {
+    width:100%;
+}
 .container-contact__form > input,
-.container-contact__form > textarea {
+.container-contact__form > textarea,
+#submit {
     padding:10px;
     margin:10px;
     width: 40%;
@@ -61,18 +64,6 @@
 }
 
 
-.container-contact__img {
-    width:50%;
-    max-width: 50%;
-   
-
-}
-
-.container-contact__img > img {
-    max-width: 100%;
-
-    
-}
 
 #submit {
     width:100px;
