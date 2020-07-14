@@ -570,9 +570,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 40%;
   padding: 10px 20px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0 auto;
+  color: #fff; }
 
 .container-contact__form > h4 {
   letter-spacing: 1px;
@@ -586,7 +588,7 @@ form {
 #submit {
   padding: 10px;
   margin: 10px;
-  width: 40%;
+  width: 100%;
   font-size: 1rem;
   border-radius: 5px;
   color: #000; }
@@ -598,6 +600,9 @@ form {
 
 #submit {
   width: 100px; }
+
+label {
+  margin-right: auto; }
 
 .footer {
   width: 100%;
@@ -687,22 +692,23 @@ form {
     font-size: 1.13rem;
     padding: 0.75rem 0 1.25rem 0;
     letter-spacing: 1.25px; }
-  .contact .container-contact_form input {
-    font-size: 0.8rem;
-    margin: 6.25px;
-    padding: 6.25px; }
-  .contact .container-contact_form textarea {
-    font-size: 0.8rem;
-    margin: 6.25px;
-    padding: 6.25px;
-    min-height: 125px;
-    max-height: 125px;
-    min-width: 62.50px; }
+  .contact .container-contact__form {
+    width: 70%; }
+    .contact .container-contact__form input {
+      font-size: 0.8rem;
+      margin: 6.25px;
+      padding: 6.25px; }
+    .contact .container-contact__form textarea {
+      font-size: 0.8rem;
+      margin: 6.25px;
+      padding: 6.25px;
+      min-height: 125px;
+      max-height: 125px;
+      min-width: 62.50px; }
   .contact .container-contact__form > input,
   .contact .container-contact__form > textarea {
     padding: 10px;
     margin: 10px;
-    width: 70%;
     font-size: 1rem;
     border-radius: 5px;
     color: #000; }

@@ -139,14 +139,16 @@
     <div class="contact" id="contact">
         <h4>Contáctanos</h4>
         <div class="container-contact">
-            <form id ="contact-form" action="/correo.php" method="POST">  
-                    <div class="container-contact__form">
+            <form class="container-contact__form" id ="contact-form" action="correo.php" method="POST">  
+                        <label>Nombre</label>
                         <input type="text" name="name" id="name" placeholder="Ingrese su nombre" required> 
+                        <label>Email</label>
                         <input type="email" name="email" id="email" placeholder="Ingrese su correo" required>
+                        <label>Asunto</label>
                         <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+                        <label>Mensaje</label>
                         <textarea name="mensaje" id="textarea" placeholder="Escriba su mensaje..." required></textarea>
                         <input type="submit" id="submit" value="Enviar">
-                    </div>
             </form> 
         </div>
     </div>

@@ -32,9 +32,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width:40%;
     padding:10px 20px;
     box-sizing: border-box;
+    margin: 0 auto;
+    color:#fff;
    
 }
 .container-contact__form > h4 {
@@ -49,7 +51,7 @@ form {
 #submit {
     padding:10px;
     margin:10px;
-    width: 40%;
+    width: 100%;
     font-size: 1rem;;
     border-radius: 5px;
     color:#000;
@@ -68,4 +70,8 @@ form {
 #submit {
     width:100px;
 
+}
+
+label {
+    margin-right:auto;
 }
