@@ -621,7 +621,7 @@ label {
     height: 525px; }
     .section h1 {
       font-size: 2rem; }
-    .section h4 {
+    .section h2 {
       font-size: 1.7rem; } }
 /* Tablets en horizonal y escritorios normales
    ------------------------------------------------------------------------- */
@@ -642,7 +642,7 @@ label {
     height: 477px; }
     .section h1 {
       font-size: 1.88rem; }
-    .section h4 {
+    .section h2 {
       font-size: 1.56rem; }
 
   .aside {
@@ -663,7 +663,7 @@ label {
     width: 100%;
     /* margin:1.88rem 0.8rem; */
     padding: 1.25rem 3.25rem 1.25rem 3.25rem; }
-    .aside__tarjetas .tarjeta h4 {
+    .aside__tarjetas .tarjeta h2 {
       font-size: 1.2rem;
       margin: .75rem auto; }
     .aside__tarjetas .tarjeta p {
@@ -676,7 +676,7 @@ label {
     width: 120px;
     margin: 1.88rem 0.5rem;
     padding: 1rem; }
-    .aside__categorias .categoria h4 {
+    .aside__categorias .categoria h3 {
       font-size: 0.94rem; }
     .aside__categorias .categoria li {
       font-size: 0.8rem; }
@@ -688,7 +688,7 @@ label {
     .aside__proveedores .proveedor img {
       width: 93.75px; }
 
-  .contact h4 {
+  .contact h3 {
     font-size: 1.13rem;
     padding: 0.75rem 0 1.25rem 0;
     letter-spacing: 1.25px; }
@@ -723,7 +723,7 @@ label {
     height: 400px; }
     .section h1 {
       font-size: 1.1rem; }
-    .section h4 {
+    .section h2 {
       font-size: 1.1rem; }
 
   .aside__proveedores .proveedor {
