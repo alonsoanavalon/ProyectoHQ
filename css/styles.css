@@ -364,7 +364,7 @@ body {
   .section h1 {
     font-size: 3rem;
     color: #fff; }
-  .section h4 {
+  .section h2 {
     color: #fff;
     font-size: 2.5rem;
     text-align: center; }
@@ -504,7 +504,7 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column; }
-    .aside__tarjetas .tarjeta h4 {
+    .aside__tarjetas .tarjeta h2 {
       font-size: 1.8rem;
       color: #fff;
       letter-spacing: 2px;
@@ -553,7 +553,7 @@ body {
   flex-direction: column;
   background-color: #4b4e51;
   padding: 2rem 0; }
-  .contact h4 {
+  .contact h3 {
     font-size: 1.8rem;
     padding: 1rem 0 1.5rem 0;
     letter-spacing: 2px;
