@@ -4,4 +4,4 @@ Página web realizada a empresa que presta asesorías en importación de maquina
 
 Live preview -> https://hqgray.cl
 
-![](https://i.ibb.co/F0pSLqp/tarjetas.jpg)
+![](https://github.com/k3yzen/ProyectoHQ/blob/master/images/hqgray.jpg)
