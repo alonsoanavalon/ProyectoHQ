@@ -1,13 +1,327 @@
 @import "normalize";
-@import "layout";
-@import "navigation";
-@import "slider";
-@import "aside";
+@import "hamburger";
+@import "mainImage";
+@import "asesorias";
+@import "categories";
 @import "contact";
 @import "footer";
-@import "mediaqueries";
-@import "navigationbar";
- 
-* {
-    font-family: Open Sans,sans-serif;
+
+*,
+*:after,
+*:before {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
 }
+
+body {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template:
+    "image" 100vh
+    "main" auto
+    "categories" auto
+    "contact" auto
+    "footer" auto;
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Mediaqueries */
+
+@media (max-width: 1440px) {
+
+    .wrapper-proveedores {
+        width:1100px;
+    }
+   
+  
+
+}
+
+@media (max-width:1199px) {
+
+
+    
+
+    
+
+    .categories-cards {
+
+      
+
+        .categoria {
+            flex-basis:200px;
+            margin:1.88rem 0.5rem;
+            padding:1rem;
+            flex-shrink: 1;
+           
+    
+            h3{
+                font-size:0.94rem;
+            }
+            li {
+           
+                font-size:0.8rem ;
+            }
+            transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+}
+
+    }
+
+    .asesorias-info {
+
+        margin-bottom:2rem;
+
+        p {
+            width:90%;
+            padding:3rem;
+        }
+
+        h2 {
+            font-size: 2.4rem;
+        }
+    }
+
+    .contact {
+        h3 {
+            font-size: 2.4rem;
+        }
+    }
+
+    .categories-info {
+
+        margin-bottom:3rem;
+
+        p {
+            width:90%;
+            padding:3rem;
+        }
+
+        h2 {
+            font-size:2.4rem;
+        }
+    }
+
+    .wrapper-proveedores {
+        width:90%;
+    }
+
+    .proveedores-title > h2 {
+        font-size:2.4rem;
+        width:90%;
+        line-height:3rem;
+       
+ 
+    }
+
+    .proveedores-img {
+        justify-content: space-around;
+    }
+
+    .container-contact__form {
+
+        width:70%;
+    }
+
+} 
+@media (max-width:767px) {
+
+   
+    .main-image {
+
+        .nav {
+            
+            justify-content: center;
+
+            img {
+                display:none;
+                position: absolute;
+            }
+
+            .nav-wrap {
+                margin-top:13rem;
+            }
+        }
+        
+
+        .image-title {
+            img {
+                width:80%;
+            }
+        }
+
+        .bottom-image {
+            .bottom-from {
+                font-size: 1.8rem;
+            }
+        }
+
+        
+    }
+  
+
+    .categories-info {
+        flex-direction: column;
+
+        h2 {
+            border:none;
+            border-bottom:thin solid #ccc;
+            padding:3rem 0;
+        }
+        p {
+
+            padding-top:2rem;
+            width:90%;
+        }
+    }
+
+    .categories-cards {
+        padding:0;
+        margin:0;
+    }
+
+    .asesorias-info {
+        flex-direction: column-reverse;
+        height:auto;
+
+        h2 {
+            border:none;
+            border-bottom:thin solid #ccc;
+            padding-bottom:2rem;
+        }
+
+        p {
+            padding-top:2rem;
+        }
+    }
+
+    .wrapper-proveedores {
+        flex-direction: column;
+        padding-top:0;
+        margin-top:0;
+    }
+
+    .proveedores-title {
+        width:100%;
+    }
+
+    .proveedores-title > h2 {
+        width:100%;
+   
+    }
+
+    .proveedores-content {
+        width:100%;
+        padding-top:2rem;
+    }
+
+
+}
+
+
+@media (max-width:500px) {
+    .categories-cards {
+        .categoria {
+            flex-basis:40%;
+        }
+    }
+}
+
+@media (max-width:390px) {
+
+
+
+    .categories {
+        .categories-info {
+            h2 {
+                font-size:1.8rem;
+            }
+        }
+    }
+
+    .asesorias {
+        .asesorias-info {
+            h2 {
+                font-size:1.8rem;
+            }
+        }
+    }
+
+
+
+    .categories {
+
+        .categories-cards {
+
+            padding-top:2rem;
+            .categoria {
+                flex-basis:40%;
+            }
+        }
+
+    }
+
+    .wrapper-proveedores {
+        .proveedores-title {
+            h2 {
+                font-size:2rem;
+            }
+        }
+    }
+    
+}
+
+@media (max-height:700px) {
+
+    .main-image {
+
+        .image-title {
+            img {
+                width:300px;
+            }
+        }
+
+        .nav {
+            .nav-wrap {
+                margin-top:1rem;
+            }
+        }
+
+    }
+    
+    
+   
+}
+
+
+@media (max-height:450px) {
+
+    .main-image {
+
+        .bottom-image {
+            .bottom-from {
+                display: none;
+            }
+        }
+
+        .image-title {
+            img {
+                width:300px;
+            }
+        }
+
+    }
+  
+}
+
+
+
+

@@ -1,0 +1,106 @@
+/* Asesorias */
+
+.asesorias {
+    height:auto;
+
+}
+
+
+.asesorias-info {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-top:4rem;
+  
+
+  
+    height:300px;
+    text-align: center;
+    h2 {
+        width:50%;
+        font-size: 3rem;
+        color:#111;
+        letter-spacing: .3rem;
+        border-left:thin solid #ccc;
+        z-index:30;
+    }
+
+    p {
+        width: 50%;
+        color:#222;
+        font-size: 1.1rem;
+        padding:8rem;
+        z-index:30;
+    }
+}
+
+
+/* Proveedores */
+
+
+.wrapper-proveedores {
+    width:90%;;
+    height:auto;
+    margin:2rem auto 0 auto;
+
+    display:flex;
+    flex-flow:row wrap;
+    padding:3rem;
+}
+.proveedores-title {
+    width:50%;
+}
+
+.proveedores-title > h2 {
+    width:500px;
+    font-size:3.2rem;
+    font-weight: 700;
+   
+
+}
+
+.proveedores-content{
+    width:50%;
+}
+
+.proveedores-content > p {
+    font-weight: normal;
+}
+
+.proveedores-content > h3 {
+    font-size:1.2rem;
+    font-weight: 600;
+}
+
+.proveedores-img {
+    width:100%;
+    margin:0 auto;
+    margin-top:2rem;
+    display: flex;
+    align-items: center;
+    flex-flow:row wrap;
+    justify-content: space-around;
+}
+
+.proveedores-img > img {
+    margin:2rem 1.5rem 0 1.5rem;
+    width:130px;
+    height:auto;
+}
+
+.proveedores-img > img:nth-child(4) {
+    width:100px;
+}
+
+.proveedores-img > img:nth-child(1) {
+    width:110px;
+}
+
+.proveedores-img > img:nth-child(5) {
+    width:160px;
+}
+.proveedores-img > img:nth-child(2) {
+    width:110px;
+}
+
+

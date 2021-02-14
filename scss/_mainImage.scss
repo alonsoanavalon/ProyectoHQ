@@ -1,0 +1,138 @@
+
+.main-image {
+    grid-area: image;
+    background-image: url("https://i.ibb.co/4TxvR2m/pexels-oleg-magni-min.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-origin: border-box;
+    height:100%;
+
+    .nav {
+
+        display:flex;
+        height:100px;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+
+        img {
+            width:150px;
+            z-index:1;
+        }
+    
+        .nav-wrap{
+    
+            z-index:1;    
+            .nav-contact {
+                
+                font-size: 1.2rem;
+                
+                text-decoration: none;
+                color:#fff;
+                padding-right: 1rem;
+                border-right: 2px solid rgb(175, 106, 60);
+            }
+
+            #hamburger {
+               
+                
+                color:#ccc;
+                border:none;
+                margin-left:1rem;
+                text-decoration: none;
+                cursor: pointer;
+
+            }
+      
+        }
+    }
+   
+    .image-title {
+        
+        height:calc(100vh - 300px);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+
+        img {
+            width:800px;
+            z-index:10;
+   
+        }
+    }
+    .bottom-image {
+     
+
+
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+        img {
+            width:100px;
+            margin-right:10px;
+        
+           
+            z-index:1;
+        }
+        p {
+            z-index:1;
+            color:#ccc;
+            padding:0 .5rem;
+        }
+        p:hover {
+            color:#fff;
+        }
+
+        .bottom-from {
+            
+
+            font-size: 2rem;
+        }
+
+    }
+
+    #arrow {
+        color:rgb(255, 255, 255);
+
+        position: absolute;
+        width:50px;
+        height:auto;
+        left:0;
+        right:0;
+        bottom:1rem;
+        margin:auto;
+    }
+
+    #arrow:hover {
+        color:rgb(199, 121, 48);
+    }
+
+}
+
+.main {
+    background-color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

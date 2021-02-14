@@ -1,0 +1,108 @@
+.panel {
+    position:fixed;
+    z-index:50;
+    width:100%;
+    top:0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    transition:transform .3s ease;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    overflow-x: hidden;
+}
+
+.panel.is-active {
+    transform:translate(0, 0);
+}
+
+.main-image {
+    .nav {
+        .nav-wrap {
+            .panel-btn {
+
+        
+        
+                z-index:100;
+                background: none;
+                border: none;
+                outline: none;
+          
+            
+            }
+
+            #li-hamburger {
+                z-index:100;
+                .hamburger-box {
+
+                    
+                    .hamburger-inner,
+                    .hamburger-inner::after,
+                    .hamburger-inner::before {
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.panel {
+
+    background-image: url("/images/fondo.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size:300px;
+
+    .menu {
+        a {
+
+            
+  
+            letter-spacing: .3rem;
+            img {
+                width:40%;
+            }
+        }
+    }
+}
+
+
+
+
+.menu {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:5rem;
+
+}
+
+.menu a {
+    width:inherit;
+    margin-bottom:3rem;
+    text-decoration: none;
+    font-size:1.2rem;
+    transition:left .5s ease;
+}
+
+.menu-link:link {
+    color:#111;
+}
+
+.menu-link:visited {
+    color:#111;
+}
+
+.menu-link:hover {
+    color:rgb(228, 131, 20);
+}
+
+
+

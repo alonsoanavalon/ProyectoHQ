@@ -1,19 +1,23 @@
+/* Contact */
 
 .contact {
     width:100%;
     margin:auto;
+    grid-area: contact;
     display:flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     flex-direction: column;
-    background-color:     #4b4e51;
+    background-color:#fff;
     padding:2rem 0;
+    margin-top:3rem;
+
     h3 {
-        font-size: 1.8rem;
+        font-size: 3rem;
         padding:1rem 0 1.5rem 0;
         letter-spacing: 2px;;
-        color:#fff;
+        color:#111;
     }
 }
 
@@ -45,6 +49,7 @@
 }
 form {
     width:100%;
+    
 }
 .container-contact__form > input,
 .container-contact__form > textarea,
@@ -55,6 +60,9 @@ form {
     font-size: 1rem;;
     border-radius: 5px;
     color:#000;
+    border-style:none;
+    border-bottom:thin solid #ccc;
+    outline:none;
 
 }
 
